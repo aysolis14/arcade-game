@@ -3,6 +3,7 @@
 This is an arcade game of the classic game of Frogger. Users need to cross the bricks and make it to the water.  
 
 ## How to Play the Game
+[Play the game now](https://aysolis14.github.io/arcade-game/) or download the zip file and extract to your local computer and open the index.html file.
 The goal of the game is to make it across the bricks to the water without getting hit by an enemy bug. 
 
 To begin playing:
