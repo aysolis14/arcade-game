@@ -81,12 +81,12 @@ var Engine = (function(global) {
         updateEntities(dt);
         checkCollisions();
     }
-
+//adding the function to check collisions between player and enemy
     function checkCollisions() {
         allEnemies.forEach(enemy => {
             if(enemy.checkCollisions(player) || player.checkCollisions(enemy)) {
-                player.x = 2;
-                player.y = 5;
+                player.x = 200;
+                player.y = 400;
             }
         });
     }
@@ -102,7 +102,7 @@ var Engine = (function(global) {
        allEnemies.forEach(function(enemy) {
             enemy.update(dt);
         }); 
-        //player.update();
+        player.update();
     }
 
     /* This function initially draws the "game level", it will then call
@@ -170,7 +170,7 @@ var Engine = (function(global) {
      * those sorts of things. It's only called once by the init() method.
      */
     function reset() {
-        // noop
+        
     }
 
     /* Go ahead and load all of the images we know we're going to need to

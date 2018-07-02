@@ -1,3 +1,42 @@
 body {
     text-align: center;
+    background-color: #2855aa;
+}
+
+.Game-Title {
+    font-family: 'Poor Story', cursive;
+    font-size: 5em;
+    color: #ffffff;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    font-family: 'Poor Story', cursive;
+}
+.window {
+    background-color: #3de458;
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+    border: 2px solid #2e3d49;
+    margin: 15% auto;
+}
+.modal-title {
+    color: #000000;
+    font-size: 45px;
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    color: #000000;
+    background-color: #3de458;
 }
